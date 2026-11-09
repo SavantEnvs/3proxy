@@ -1,0 +1,10 @@
+fakeresolve
+nsrecord example.org 1.2.3.4
+nsrecord v6.example ::1
+filtermaxsize 1000
+delimchar @
+weight 5
+stacksize 65536
+backlog 100
+maxseg 1400
+logdump 1000 10000

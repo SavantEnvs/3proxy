@@ -1,0 +1,2 @@
+# seeds are byte-exact: keep their CRLFs
+fuzz_*/testsuite/* -text

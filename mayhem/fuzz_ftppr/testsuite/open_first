@@ -1,0 +1,5 @@
+OPEN ftp.example.org:21
+USER anonymous
+PASS a@b
+CWD /pub
+RETR f

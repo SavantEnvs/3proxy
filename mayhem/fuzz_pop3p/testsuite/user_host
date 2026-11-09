@@ -1,0 +1,4 @@
+USER bob@mail.example.org
+PASS secret
+STAT
+QUIT

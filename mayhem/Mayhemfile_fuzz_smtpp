@@ -1,0 +1,8 @@
+project: savantenvs/3proxy
+target: fuzz_smtpp
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_smtpp/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_smtpp
+    libfuzzer: true

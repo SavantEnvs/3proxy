@@ -1,0 +1,7 @@
+http_content_type html text/html
+http echo * /e**
+http reply * /x 404 "X: y"
+http rewrite * /a/** "/b/$1"
+http redir * /r** 302 "http://x/$1"
+pcre_extend
+redirect 10.0.0.0/8 127.0.0.1
