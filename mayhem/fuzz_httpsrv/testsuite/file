@@ -1,0 +1,7 @@
+GET /f/a.html HTTP/1.1
+Host: a
+
+GET /c/b.html HTTP/1.1
+Host: a
+If-Modified-Since: Mon, 01 Jan 2024 00:00:00 GMT
+

@@ -1,0 +1,2 @@
+USER bob:alice@mail.example.org:110
+PASS x

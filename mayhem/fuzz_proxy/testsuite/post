@@ -1,0 +1,5 @@
+POST http://user:pw@example.org:8080/a?b=c HTTP/1.0
+Content-Length: 3
+Proxy-Connection: keep-alive
+
+abc

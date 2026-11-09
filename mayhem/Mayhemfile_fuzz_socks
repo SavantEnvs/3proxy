@@ -1,0 +1,8 @@
+project: savantenvs/3proxy
+target: fuzz_socks
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_socks/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_socks
+    libfuzzer: true

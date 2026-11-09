@@ -1,0 +1,4 @@
+USER bob@ftp.example.org:2121
+PASS x
+PASV
+LIST

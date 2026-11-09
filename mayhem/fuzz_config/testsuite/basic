@@ -1,0 +1,5 @@
+auth iponly
+allow * 127.0.0.1
+maxconn 100
+flush
+deny *

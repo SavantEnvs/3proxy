@@ -1,0 +1,6 @@
+timeouts 1 5 30 60 180 1800 15 60
+bandlimin 57600 * 192.168.10.0/24
+countin 1 D 1000 * *
+connlim 10 1 * * * *
+logformat "L%d-%m-%Y %H:%M:%S %U %C:%c %R:%r %O %I %h %T"
+rotate 7

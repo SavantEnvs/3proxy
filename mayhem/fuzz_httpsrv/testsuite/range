@@ -1,0 +1,5 @@
+GET /f/a.html HTTP/1.1
+Host: a
+Range: bytes=0-5
+Authorization: Basic dTpw
+

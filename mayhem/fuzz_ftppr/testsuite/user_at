@@ -1,0 +1,3 @@
+USER bob@ftp.example.org
+PASS secret
+QUIT

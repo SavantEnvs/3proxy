@@ -1,0 +1,7 @@
+# Used instead of the repo's root .dockerignore when building with -f mayhem/Dockerfile (BuildKit):
+# upstream's root file drops .git, and the image must keep the full history.
+mayhem/build/
+**/*.o
+**/*.swp
+**/*~
+.DS_Store
